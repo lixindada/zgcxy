@@ -1,0 +1,45 @@
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	display: none;
+}
+
+
+.shouqi{display: none;}
+
+.ul_2{display:none;width:100%; background: rgba(51,51,51,0.5);}
+
+
+.course h2 p,.campus h2 p,.works h2 p,.star h2 p,.unit h2 p{display: none;}
+
+
+
+/*大盒子开始*/
+.container{padding:40px 0 80px 0;}
+.container .left{padding:0 2% 0 2%;}
+.container .left ul li{height:77px; line-height:77px;  width: 32%; float: left; cursor: pointer; text-align: center;}
+/*.container .left ul li:hover{border-bottom:3px solid #ff942d;}*/
+.container .left ul li:first-of-type{background:url(../images/left_link_02.jpg) no-repeat center top;}
+.container .left ul li:first-of-type:hover{background:url(../images/left_link_03.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(2){background:url(../images/left_link_06.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(2):hover{background:url(../images/left_link_07.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(3){background:url(../images/left_link_08.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(4){background:url(../images/left_link_10.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(5){background:url(../images/left_link_12.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(6){background:url(../images/left_link_14.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(7){background:url(../images/left_link_17.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(8){background:url(../images/left_link_18.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(9){background:url(../images/left_link_20.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(3):hover{background:url(../images/left_link_09.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(4):hover{background:url(../images/left_link_11.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(5):hover{background:url(../images/left_link_13.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(6):hover{background:url(../images/left_link_15.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(7):hover{background:url(../images/left_link_17.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(8):hover{background:url(../images/left_link_19.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(9):hover{background:url(../images/left_link_21.jpg) no-repeat center top;}
+.container .left ul li a{display: block; font-size: 0.8rem; color:#2c2b27; font-family:"微软雅黑";padding-top: 10px;}
+
+.container .right h2{height: 37px; line-height: 37px; color:#ff912a; font-size: 1.1rem; font-family:"微软雅黑";}
+.container .right h2:first-of-type{height:26px; padding-top: 4px;}
+.container .right p{line-height: 26px; color: #2a2a2a; font-size:0.92rem; font-family: "微软雅黑";}
+.container .right img{margin:10px 0 12px 0;}
+/*大盒子结束*/

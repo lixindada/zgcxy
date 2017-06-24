@@ -1,0 +1,21 @@
+
+.shouqi{display: none;}
+.shouqi p,.shouqi span{display: none;}
+
+.ul_2{display:none;width:100%; background: rgba(51,51,51,0.5);}
+
+
+.course h2 p,.campus h2 p,.works h2 p,.star h2 p,.unit h2 p{display: none;}
+
+
+
+/**********************header end*************************/
+
+.container{padding-top:12px;}
+.container div{padding:7px 0 20px 0; display: block;}
+.container div>p{text-align: center;line-height: 30px;font-size: 14px;}
+.container h3{font-size: 16px;color: #fa9634; text-align: center; margin-top: 26px;}
+.container>p{text-align: center;font-weight: bold;font-size: 20px; height: 70px; line-height: 70px; display:block !important;}
+.container>img{width:70%;padding-left:15%;}
+
+/**********************footer end*************************/

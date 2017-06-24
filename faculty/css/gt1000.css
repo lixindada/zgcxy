@@ -1,0 +1,20 @@
+.p1{display: none;}
+.ul_2{height: 0; overflow: hidden;}
+.shouqi{display: none !important;}
+.shouqi p,.shouqi span{display: none;}
+
+/**********************header end*************************/
+
+.container{padding-bottom:40px;}
+.container h2{font-size: 30px; font-weight: bold; text-align: center; padding:48px 0 0 0;}
+.container h2 span{font-size: 24px; color:#888888; font-weight: normal; display: block; padding:28px 0 61px 0;}
+.container ul li div{padding-top:16px;display: block !important;}
+.container ul li{width:220px; margin-right: 40px; float: left; height:801px;}
+.container ul li:nth-of-type(4),.container ul li:nth-of-type(8),.container ul li:nth-of-type(12){margin-right:0;}
+.container ul li:nth-of-type(4) p{text-indent:2em !important;}
+.container ul li div p{color:#888888;font-size: 14px; text-indent: 2em;line-height: 20px;}
+.container ul li div h3{font-size: 18px;font-weight: bold;color: #888; height: 29px; padding-top: 9px;}
+.container ul li div p:last-of-type{text-indent:0;}
+.container ul li>a{display: none;}
+.container ul li div{display:block;}
+

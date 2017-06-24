@@ -1,0 +1,55 @@
+.b3b{border-bottom:3px solid #ff942d !important;}
+@media screen and (min-width:1033px){
+	body{padding-top: 80px;}
+	.p1{display: none;}
+	.ul_2{height: 0; overflow: hidden;}
+	.shouqi{display: none;}
+	/*********************container start*******************/
+	.container{padding:40px 0 48px 0;}
+	.container .left,.container .right{float:left;}
+	.container .left{width:26.6%;}
+	.container .left ul{border-right:1px solid #bababa; padding-right:15px;}
+	.container .left ul li{height:77px; line-height:77px; border-bottom:3px solid #fff;}
+	.container .left ul li:hover{border-bottom:3px solid #ff942d;}
+	.container .left ul li a{padding-left:36%; font-size: 1.375rem; color:#2c2b27; font-family:"微软雅黑"; display: block;}
+	/*********************container end*******************/
+}
+@media screen and (max-width: 1032px) and (min-width:751px){
+	.p1{display: none;}
+	.banner{margin-top: 74px;}
+	.ul_2{height: 0; overflow: hidden;}
+	.shouqi{display: none;}
+	/*********************container start*******************/
+	.container{padding:4% 0 3.8% 0;}
+	.container .left,.container .right{float:left;}
+	.container .left{width:26.6%;}
+	.container .left ul{border-right:1px solid #bababa; padding-right:5.63909774%;}
+	.container .left ul li{height:77px; line-height:77px; border-bottom:3px solid #fff;}
+	.container .left ul li:hover{border-bottom:3px solid #ff942d;}
+	.container .left ul li a{padding-left:36%; font-size: 1.375rem; color:#2c2b27; font-family:"微软雅黑"; display: block;}
+	/*********************container end*******************/
+}
+@media screen and (max-width:750px) and (min-width:481px){
+	.shouqi{display: none;}
+	.course h2 p,.campus h2 p,.works h2 p,.star h2 p,.unit h2 p{display: none;}
+	/*********************container start*******************/
+	.container .left{padding:0 2% 0 2%;}
+	.container .left ul li{height:77px; line-height:77px;  width:30%; margin:5% 10%; float: left; cursor: pointer; text-align: center;}
+	.container .left ul li a{display: block; font-size: 1.25rem; color:#2c2b27; font-family:"微软雅黑";padding-top:20px;}
+	/*********************container end*******************/
+}
+@media screen and (max-width:480px){
+	.p1{color: red; font-size: 0.8rem; font-family: "微软雅黑"; font-weight: bolder;padding-left:22%; padding-top:5%;}
+	.shouqi{text-align: center;color: #000000; font-size: 16px; font-family: "微软雅黑"; font-weight:bolder; cursor: pointer;}
+	
+	.ul_2{display:none;width:100%; background: rgba(51,51,51,0.5);}
+	.ul_2 li{width:25%; float: left;  text-align:center; height: 30px; line-height: 30px; border-bottom:1px solid rgba(255,255,255,0.5);}
+	.ul_2 li a{color: #fff; font-size: 0.8rem; font-family: "微软雅黑";}
+	
+	/*********************container start*******************/
+	.container{padding:0 10% 0 10%;}
+	.container .left{padding:0 2% 0 2%; margin:5% 10%;}
+	.container .left ul li{height:57px; line-height:57px;  width:30%; float: left; cursor: pointer; text-align: center;}
+	.container .left ul li a{display: block; font-size:1rem; color:#2c2b27; font-family:"微软雅黑";padding-top:30px;}
+	/*********************container end*******************/
+}

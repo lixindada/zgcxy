@@ -1,0 +1,13 @@
+*{margin:0; padding:0;}
+.clearfix:after{ height:0; display:block; content:''; visibility:hidden; clear:both;}
+ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,form,label{display:block;}
+ul{list-style:none;}
+.ellipsis{white-space: nowrap;  text-overflow: ellipsis;  overflow: hidden; }
+a:link{text-decoration:none; outline:none;}
+a:hover{color:red;}
+a:active{color:#f90;}
+body{font-family:"微软雅黑"; font-size:14px;}
+img{display: block;	width: 100%;}
+
+footer .div_1{display: none;}
+.container{padding-left:15px !important; padding-right: 15px !important;}

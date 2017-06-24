@@ -1,0 +1,58 @@
+.container{padding:0 15px 0 15px;}
+.p1{display: none !important;}
+.ul_2{height: 0; overflow: hidden;}
+.shouqi{display: none;}
+.shouqi p,.shouqi span{display: none !important;}
+.serve,.course,.campus,.works,.star,.unit{width: 100%;}
+.serve h2,.course h2,.campus h2,.works h2,.star h2,.unit h2{font-size: 1.9rem;  height: 90px; line-height: 90px;font-weight: normal;}
+.course h2 p,.campus h2 p,.works h2 p,.star h2 p,.unit h2 p{display: none !important;}
+.serve ul li{padding-bottom:6px;}
+.serve ul li{float: left; transition: 0.2s; cursor: pointer; width:21%; text-align: center; margin-right:5.333333%;}
+.serve ul li h3{font-size: 1.0625rem;color: #000000; padding-top: 66px;font-weight: normal;}
+.serve ul li p{display: none;}
+.serve ul a:nth-of-type(1) li{background: url(../images/service_1_1.jpg) no-repeat center 10px;}
+.serve ul a:nth-of-type(2) li{background: url(../images/service_2_1.jpg) no-repeat center 10px;}
+.serve ul a:nth-of-type(3) li{background: url(../images/service_3_1.jpg) no-repeat center 10px;}
+.serve ul a:nth-of-type(4) li{background: url(../images/service_4_1.jpg) no-repeat center 10px; margin-right:0;}
+.serve ul a:nth-of-type(1):hover li{background: url(../images/service_1_2.jpg) no-repeat center 10px;}
+.serve ul a:nth-of-type(2):hover li{background: url(../images/service_2_2.jpg) no-repeat center 10px;}
+.serve ul a:nth-of-type(3):hover li{background: url(../images/service_3_2.jpg) no-repeat center 10px;}
+.serve ul a:nth-of-type(4):hover li{background: url(../images/service_4_2.jpg) no-repeat center 10px;}
+.course ul li div{display: none;}
+.course ul li{display:block !important;cursor:pointer; float: left; width:33.333333333%; position: relative;}
+.course ul li a:nth-of-type(2){font-size: 1.375rem;  color: #000; text-align: center; padding: 6.02409639% 0 6.02409639% 0; display: block !important;}
+.course ul li a:nth-of-type(1){ display:block; margin:5.12048193% 0 0 31.62650602%; width:36.14457831%;}
+.course ul li p{display: none; position: absolute; width:75.9036145%; left: 0px; top:0px; padding: 30px 12.04819277%; line-height: 24px; font-family: "微软雅黑"; font-size: 0.875rem; color: #fff; height: 100%;}
+.course ul li:nth-of-type(2n-1) p{background: #90c166;}
+.course ul li:nth-of-type(2n) p{background: #fa9634;}
+.course ul li:nth-of-type(1) p{padding-bottom: 52px;}
+.course ul li:nth-of-type(2) p{padding-bottom: 76px;}
+.course ul li:nth-of-type(3) p{padding-bottom: 52px;}
+.course ul li:nth-of-type(4) p{padding-bottom: 52px;}
+.course ul li:nth-of-type(5) p{padding-bottom: 28px;}
+.course ul li:nth-of-type(6) p{padding-bottom: 52px;}
+.course ul li:nth-of-type(7) p{padding-bottom: 28px;}
+.course ul li:nth-of-type(8) p{padding-bottom: 52px;}
+.course ul li:nth-of-type(9) p{padding-bottom: 52px;}
+/*.course ul li:hover p{display: block !important;}*/
+.campus h2 a{display: none;}
+.campus ul li{display:block !important;float: left; width:30%; margin-right:5%; margin-bottom: 10px;}
+.campus ul li:nth-of-type(3),.campus ul li:nth-of-type(6){margin-right: 0;}
+.campus ul li:nth-of-type(4),.campus ul li:nth-of-type(5),.campus ul li:nth-of-type(6){margin-bottom: 0;}
+.campus ul li h3{padding-top: 24px; padding-bottom: 15px; font-family:"微软雅黑"; font-size: 1rem;font-weight: normal;}
+.campus ul li p{padding-bottom: 23px;}
+.campus ul li p a{font-size:0.85rem; font-family: "微软雅黑"; color: #848486;}
+
+.works ul li{display:block !important;width:20%; float: left; cursor: pointer; position: relative;}
+.works ul li div{display: none;}
+
+.star ul li div{display: none;}
+.star ul li{display:block !important;width:32.8%; margin:0 0.8% 8px 0; float: left; position:relative; cursor: pointer;}
+.star ul li:nth-of-type(4){margin-top: -10px;}
+.star ul li:nth-of-type(3),.star ul li:nth-of-type(6),.star ul li:nth-of-type(9),.star ul li:nth-of-type(12){margin-right: 0;}
+.star ul li:nth-last-of-type(1),.star ul li:nth-last-of-type(2),.star ul li:nth-last-of-type(3){margin-bottom: 0;}
+.star ul li div h3{font-size: 1.5rem; color: #f1effa; font-weight: bolder;font-family: "微软雅黑"; padding: 27px 0 26px 0;}
+.star ul li div p{color: #f1effa; font-size: 1.0625rem; font-family: "微软雅黑"; margin-top: 50px;}
+.star ul li div p span{display: inline-block; padding-top: 23px;}
+.unit div a{display:block !important;float: left; width:16%; margin:0 0.8% 1.5% 0;}
+.unit div a:nth-of-type(6),.unit div a:nth-of-type(12),.unit div a:nth-of-type(18){margin-right: 0;}

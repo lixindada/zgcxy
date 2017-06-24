@@ -1,0 +1,44 @@
+@media screen and (min-width:1033px){
+	/*********************container start*******************/
+	.container .left ul li:first-of-type{background:url(../../images/xygk_02.jpg) no-repeat 20px center;}
+	.container .left ul li:last-of-type{background:url(../../images/xygk_07.jpg) no-repeat 20px center;}
+	.container .left ul li:first-of-type:hover{background:url(../../images/xygk_03.jpg) no-repeat 20px center;}
+	.container .right{width:67.4%; padding:0 0 0 50px;}
+	.container .right h2{height: 37px; line-height: 37px; color:#ff912a; font-size: 1.125rem; font-family:"微软雅黑";}
+	.container .right h2:first-of-type{height:29px; padding-top: 4px;}
+	.container .right p{line-height: 29px; color: #2a2a2a; font-size:1rem; font-family: "微软雅黑";}
+	/*********************container end*******************/
+}
+@media screen and (max-width: 1032px) and (min-width:751px){
+	/*********************container start*******************/
+	.container .left ul li:first-of-type{background:url(../../images/xygk_02.jpg) no-repeat 20px center;}
+	.container .left ul li:last-of-type{background:url(../../images/xygk_07.jpg) no-repeat 20px center;}
+	.container .left ul li:first-of-type:hover{background:url(../../images/xygk_03.jpg) no-repeat 20px center;}
+	.container .right{width:66.2%; padding:0 2.1% 0 5%;}
+	.container .right h2{height: 35px; line-height: 35px; color:#ff912a; font-size: 1.1rem; font-family:"微软雅黑";}
+	.container .right h2:first-of-type{height:27px; padding-top: 2px;}
+	.container .right p{line-height: 27px; color: #2a2a2a; font-size:1rem; font-family: "微软雅黑";}
+	/*********************container end*******************/
+}
+@media screen and (max-width:750px) and (min-width:481px){
+	/*********************container start*******************/
+	.container .left ul li:first-of-type{float:left; background:url(../../images/xygk_02.jpg) no-repeat center top;}
+	.container .left ul li:last-of-type{background:url(../../images/xygk_07.jpg) no-repeat center top; float: right;}
+	.container .left ul li:first-of-type:hover{background:url(../../images/xygk_03.jpg) no-repeat center top;}
+	.container .right{width:100%; padding-top: 20px;}
+	.container .right h2{height: 32px; line-height: 32px; color:#ff912a; font-size: 1rem; font-family:"微软雅黑";}
+	.container .right h2:first-of-type{height:25px; padding-top: 2px;}
+	.container .right p{line-height: 28px; color: #2a2a2a; font-size:1rem; font-family: "微软雅黑";}
+	/*********************container end*******************/
+}
+@media screen and (max-width:480px){
+	/*********************container start*******************/
+	.container .left ul li:first-of-type{float:left; background:url(../../images/xygk_02.jpg) no-repeat center top;}
+	.container .left ul li:last-of-type{background:url(../../images/xygk_07.jpg) no-repeat center top; float: right;}
+	.container .left ul li:first-of-type:hover{background:url(../../images/xygk_03.jpg) no-repeat center top;}
+	.container .right{width:100%; padding-top: 10px;}
+	.container .right h2{height: 30px; line-height: 30px; color:#ff912a; font-size: 0.9rem; font-family:"微软雅黑";}
+	.container .right h2:first-of-type{height:24px; padding-top: 2px;}
+	.container .right p{line-height: 24px; color: #2a2a2a; font-size:0.8rem; font-family: "微软雅黑";}
+	/*********************container end*******************/
+}

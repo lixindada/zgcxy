@@ -1,0 +1,57 @@
+
+.shouqi{display: none;}
+.shouqi p,.shouqi span{display: none;}
+
+.ul_2{display:none;width:100%; background: rgba(51,51,51,0.5);}
+
+
+.course h2 p,.campus h2 p,.works h2 p,.star h2 p,.unit h2 p{display: none;}
+
+
+
+/**********************header end*************************/
+
+.container{padding-bottom:80px;}
+.container h2{font-size: 28px; font-weight: bold; text-align: center; padding:44px 0 0 0;}
+.container h2 span{font-size: 22px; color:#888888; font-weight: normal; display: block; padding:24px 0 56px 0;}
+.container ul li div{padding:10% 5% 0 5%; position:relative;}
+.container ul li{width:48%; margin-right:4%; float: left; position:relative;margin-bottom:20px;}
+.container ul li:nth-of-type(2n){margin-right:0;}
+.container ul li:nth-of-type(4) p,.container ul li:nth-of-type(2) p{text-indent:2em !important; display: block !important;}
+.container ul li:nth-of-type(2) p span{display: none;}
+.container ul li div p{color:#666666;font-size: 14px; text-indent: 2em;line-height: 20px;}
+.container ul li div h3{font-size: 18px;font-weight: bold;color: #666666; height: 29px; padding-top: 9px;}
+.container ul li div p:last-of-type{text-indent:0;}
+.container ul li>a{display:block; font-size: 14px; color: #555555; text-align: center; height:40px; padding:10px 0 30px 0; position: relative;}
+.container ul li>a>img{width: 30px; position: absolute; margin-left:-15px; left:50%; top:40px; 
+		-webkit-animation: myfirst 1s ease-in-out 0.25s infinite alternate running;
+		-ms-animation: myfirst 1s ease-in-out 0.25s infinite alternate running;
+		-o-animation: myfirst 1s ease-in-out 0.25s infinite alternate running;
+		-moz-animation: myfirst 1s ease-in-out 0.25s infinite alternate running;
+		animation: myfirst 1s ease-in-out 0.25s infinite alternate running;
+	}
+@-webkit-keyframes myfirst{
+	10%{top:42px;}
+	20%{top:44px;}
+	30%{top:46px;}
+	40%{top:48px;}
+	50%{top:50px;}
+	60%{top:48px;}
+	70%{top:46px;}
+	80%{top:44px;}
+	90%{top:42px;}
+	100%{top:40px;}
+}
+@keyframes myfirst{
+	10%{top:42px;}
+	20%{top:44px;}
+	30%{top:46px;}
+	40%{top:48px;}
+	50%{top:50px;}
+	60%{top:48px;}
+	70%{top:46px;}
+	80%{top:44px;}
+	90%{top:42px;}
+	100%{top:40px;}
+}
+/**********************footer end*************************/

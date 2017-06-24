@@ -1,0 +1,107 @@
+/*index*/
+html{font-size: 100%;}
+body{font-size: 1rem; font-size: 16px; padding-top:74px;overflow-x: hidden;}
+.banner{width: 100%; overflow: hidden; min-width:320px;}
+.none{display: none;}
+.block{display: block;}
+.container{max-width:1000px; min-width:320px; margin: 0 auto; overflow: hidden;}
+.ul_2 li:last-of-type{border:0;}
+.ul_2 li:last-of-type:hover{background:none;}
+
+header{width:100%; background: #333333; }
+header .wrap{min-width:320px;max-width:1000px; margin: 0 auto;}
+.liTop img{width:16%; margin:0 auto;}
+.liTop{cursor: pointer;}
+.ul_2 li:last-of-type{
+	width: 100%; 
+	animation:bounceInDown 1s; 
+	-moz-animation:bounceInDown 1s; 
+	-webkit-animation:bounceInDown 1s; 
+	-o-animation: bounceInDown 1s;
+	-ms-animation: bounceInDown 1s;
+}
+.cur{background:#5c5c5c;}
+footer div{margin:50px auto 0 auto; max-width:1000px; min-width:320px;}
+footer div ul{width: 80%; margin:0 auto; padding:20px 0;}
+footer{background:#333333; width: 100%; border-bottom:1px solid #000000;}
+footer div ul li p{ font:0.845em "微软雅黑"; color:#f0ffff; line-height:30px;}
+footer div ul li:nth-of-type(1) p:nth-of-type(2),footer div ul li:nth-of-type(3) p:nth-of-type(2),footer div ul li:nth-of-type(3) p:nth-of-type(3){padding-left:70px;}
+/*fanhuitop*/
+.fadeIntop{display:none; position: fixed; right: 10px; bottom:90px;}
+.fadeIntop p{height:40px; width: 50px; text-align: center; border-radius:30px; box-shadow:0px 0px 3px #262626; background:rgba(255,255,255,0.6);padding-top:10px; margin-bottom: 10px; cursor:pointer;}
+.fadeIntop p:first-of-type{padding-top:16px; height:34px;}
+.fadeIntop p img{display:block; width:60%; margin:0 auto;}
+.fadeIntop p:active{background:rgba(235,216,216,1);}
+@media screen and (min-width:1033px){
+	/*********************header start*******************/
+	header{position:fixed; top: 0; z-index: 9999999;}
+	header .wrap img.img_2{display: none;}
+	header .wrap .logo{padding-top: 11px; max-width: 171px; float: left;}
+	header .wrap ul.ul_1{float: right; padding-right: 12px; width:716px;}
+	header .wrap ul.ul_1 li:first-of-type{width: 65px;}
+	header .wrap ul.ul_1 li{width: 93px; text-align: center; float: left; height: 80px; line-height: 80px;}
+	header .wrap ul.ul_1 li a{font-size: 0.85rem; color: #FFFFFF; display: block !important;}
+	header .wrap ul.ul_1 li:hover,header .wrap ul.ul_1 li:visited{background: #5c5c5c;}
+	/*********************header end*******************/
+	/*********************footer start*******************/
+	footer div{ padding:30px 0;}
+	footer div ul{width:100%; margin:0 auto;}
+	footer div ul li{float:left; width:24%;}
+	footer div ul li:last-of-type{width:28%;}
+	/*********************footer end*******************/
+}
+@media screen and (max-width: 1032px) and (min-width:751px){
+	/*********************header start*******************/
+	header{position:fixed; top: 0; z-index: 9999999;}
+	header .wrap img.img_2{display: none !important;}
+	header .wrap .logo{ width:15.06586826%; float:left; padding-left:2%; padding-top:2%;}
+	header .wrap ul.ul_1{float: right; padding-right:1.19760479%; width:71.45708583%;}
+	header .wrap ul.ul_1 li:first-of-type{width:9.07821229%;}
+	header .wrap ul.ul_1 li{width:12.98882682%; text-align: center; float: left; height: 74px; line-height: 74px;}
+	header .wrap ul.ul_1 li a{font-size:0.85rem; color: #FFFFFF; font-family: "微软雅黑"; display: block !important;}
+	header .wrap ul.ul_1 li:hover,header .wrap ul.ul_1 li:visited{background: #5c5c5c;}
+	/*********************header end*******************/
+	/*********************footer start*******************/
+	footer div ul li{width:50%; float: left;}
+	footer div ul li:nth-of-type(1),footer div ul li:nth-of-type(2){margin-bottom:20px;}
+	/*********************footer end*******************/
+}
+@media screen and (max-width:750px) and (min-width:481px){
+	body{padding-top:0;}
+	/*********************header start*******************/
+	header{height: 74px;}
+	.p1{color: red; font-size: 1.4rem; font-family: "微软雅黑"; font-weight: bolder;padding-left:25%; padding-top:3%;}
+	header .wrap img.img_2{display:block; width: 30px; position:absolute; right: 27px; top: 24px; cursor: pointer;}
+	header .wrap .logo{padding-top: 3.09780439%;  width:17.06586826%; float: left; padding-left:3%;}
+	header .wrap ul.ul_1{float: right; padding-right:1.19760479%; width:71.45708583%; display: none;}
+	/*********************header end*******************/
+	/*********************footer start*******************/
+	footer div ul{width:95%; margin-left:5%;}
+	footer div ul li{float: left; margin-bottom:20px; width:40%;}
+	footer div li:nth-of-type(2n){width:60%;}
+	footer div ul li:nth-of-type(3),footer div ul li:nth-of-type(4){margin-bottom: 0;}
+	.ul_2{display:none; width:100%; background: rgba(51,51,51,0.5); padding:10px 0 0 0;}
+	.ul_2 li{width:23.8%; float: left;  text-align:center; height: 30px; line-height: 30px;  margin:0 1% 1% 0; border:1px solid #fff;}
+	.ul_2 li:nth-of-type(4),.ul_2 li:nth-of-type(8){margin-right:0;}
+	.ul_2 li:hover{background:#2A2A2A; border-radius:12px;}
+	.ul_2 li a{color: #fff; font-size: 1rem; font-family: "微软雅黑"; display: block; border:0;}
+	.liTop{margin-bottom:0 !important;}
+	/*********************footer end*******************/
+}
+@media screen and (max-width:480px){
+	body{padding-top:0;}
+	.liTop{padding-top:10px;}
+	.ul_2{display:none;width:100%; background: rgba(51,51,51,0.5);}
+	.ul_2 li{width:25%; float: left;  text-align:center; height: 30px; line-height: 30px; border-bottom:1px solid rgba(255,255,255,0.5);}
+	.ul_2 li a{color: #fff; font-size: 0.8rem; font-family: "微软雅黑";}
+	/*********************header start*******************/
+	header{height: 58px;}
+	header .wrap{height: 58px;}
+	header .wrap img.img_2{display:block; width: 20px; position:absolute; right: 27px; top: 24px; cursor: pointer;}
+	header .wrap .logo{padding-top: 4.09780439%; width:17.06586826%; float: left; padding-left:3%;}
+	header .wrap ul.ul_1{float: right; padding-right:1.19760479%; width:71.45708583%; display: none;}
+	/*********************header end*******************/
+	/*********************footer start*******************/
+	footer div ul{width:76%; padding-left:4%;}
+	/*********************footer end*******************/
+}

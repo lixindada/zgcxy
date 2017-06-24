@@ -1,0 +1,17 @@
+
+.p1{display: none;}
+.ul_2{height: 0; overflow: hidden;}
+.shouqi{display: none;}
+.shouqi p,.shouqi span{display: none;}
+
+/**********************header end*************************/
+
+.container{padding-top:12px;}
+.container div{padding:7px 0 20px 0; display: block !important;}
+.container div>p{text-align: center;line-height: 30px;font-size: 14px;}
+.container h3{font-size: 16px;color: #fa9634; text-align: center; margin-top: 26px;}
+.container>p{text-align: center;font-weight: bold;font-size: 20px; height: 70px; line-height: 70px; display: block !important;}
+.container>img{width:70%;padding-left:15%;}
+
+/**********************footer end*************************/
+

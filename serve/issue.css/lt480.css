@@ -1,0 +1,34 @@
+
+.p1{color: red; font-size: 0.8rem; font-family: "微软雅黑"; font-weight: bolder;padding-left:22%; padding-top:5%;}
+.shouqi{text-align: center;color: #000000; font-size: 16px; font-family: "微软雅黑"; font-weight:bolder; cursor: pointer;}
+
+
+.ul_2{display:none;width:100%; background: rgba(51,51,51,0.5);}
+
+
+.ul_2 li a{color: #fff; font-size: 0.8rem; font-family: "微软雅黑";}
+
+
+/*大盒子开始*/
+.container{padding:40px 0 40px 0;}
+.container .left{padding:0 2% 5% 2%;}
+.container .left ul li{height:87px; line-height:87px;  width:25%; float: left; cursor: pointer; text-align: center;}
+.container .left ul li:first-of-type{background:url(../../images/service_03.jpg) no-repeat center top;}
+.container .left ul li:first-of-type:hover{background:url(../../images/service_04.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(2){background:url(../../images/service_06.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(3){background:url(../../images/service_08.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(4){background:url(../../images/service_10.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(2):hover{background:url(../../images/service_06.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(3):hover{background:url(../../images/service_09.jpg) no-repeat center top;}
+.container .left ul li:nth-of-type(4):hover{background:url(../../images/service_11.jpg) no-repeat center top;}
+.container .left ul li a{display: block; font-size:1rem; color:#2c2b27; font-family:"微软雅黑";padding-top: 10px;}
+
+.container .right h3{font-size: 18px;color: #fa9634; line-height: 38px;}
+.container .right h3 span,.container .right p{line-height:28px;font-size: 14px;color: #222; font-weight: normal;}
+.container .right h4{padding-top: 4px; padding-bottom: 10px;}
+.container .right h5{font-size: 16px;font-weight: bold;}
+.container .right p span{font-size: 14px; font-weight: bold;}
+/*大盒子结束*/
+
+
+
